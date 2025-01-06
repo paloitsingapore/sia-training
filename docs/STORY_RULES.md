@@ -84,7 +84,7 @@ Stories must be created using the template file at `/stories/_TEMPLATE.md`
    1.2. Use _TEMPLATE.md as base
    1.3. Follow SIA-XXX-brief-title.md naming convention
    1.4. Fill all required sections
-   1.5. Ask questions and seek clarifications at each step
+   1.5. Ask questions and seek clarificatons at each step
 
 2. Story Planning
    2.1. Review all requirements
