@@ -1,9 +1,5 @@
 # Task Guidelines
 
-> **Important**: 
-> - Always refer to the technical implementation rules defined in `/TECH_IA_RULES.md` for all development tasks
-> - For story creation requests, follow the guidelines in `/STORIES_IA_RULES.md` and do not proceed with implementation
-
 ## Guidelines for Task Creation
 - Create tasks as one-line descriptions (task titles)
 - Break down complex tasks into subtasks using numeric hierarchy (e.g., 2.1, 2.2, 2.3)
