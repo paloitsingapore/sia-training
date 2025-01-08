@@ -95,9 +95,12 @@ Stories must be created using the template file at `/stories/_TEMPLATE.md`
 
 3. Development Flow
    3.1. Create story branch from main
-   3.2. Create and follow task as per the tasks guidelines
+   3.2. Work on ONE task at a time:
+        - Complete current task before moving to next
+        - Get explicit approval before marking as done
+        - Document any blockers or dependencies
    3.3. Regular commits with conventional format
-   3.4. Ask questions and seek clarifications at each step
+   3.4. Ask questions and seek clarifications for current task only
 
 4. Quality Gates
    4.1. Code review completion

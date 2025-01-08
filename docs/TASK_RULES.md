@@ -50,12 +50,22 @@
   - Example: `feat(auth): add password hashing implementation`
 
 ## Guideline for Task Execution
-- If the request is to create a story, follow STORIES_IA_RULES.md guidelines and do not implement
-- Always go one task at a time 
-- Always ask clarification questions before starting the next task
-- Do not proceed with any changes until questions are answered
-- Strictly implement only what is specified in the task - no additional features or modifications outside the task scope
-- Any changes beyond task scope must be logged as new tasks for future implementation
+- Always work on ONE task at a time - no exceptions
+- Never start a new task until the current task is fully completed and marked as DONE
+- For each task:
+  1. Ask clarification questions
+  2. Wait for answers
+  3. Mark as IN PROGRESS
+  4. Implement
+  5. Get approval
+  6. Mark as DONE
+  7. Provide commit message
+- Any changes beyond current task scope must be logged as new tasks for future implementation
+- If a task dependency is discovered during implementation:
+  1. Stop current task
+  2. Document dependency
+  3. Get clarification on how to proceed
+  4. Update task order if necessary
 
 ## Example Task Structure
 ⬜ 1. Implement user authentication system

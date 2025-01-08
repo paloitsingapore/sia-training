@@ -1,0 +1,17 @@
+{
+    "github.copilot.chat.followUps": "always",
+    "github.copilot.chat.runCommand.enabled": "on",
+    "github.copilot.chat.completionContext.typescript.mode": "on",
+    "github.copilot.chat.testGeneration.instructions": [
+
+    ],
+    "github.copilot.chat.reviewSelection.instructions": [
+
+    ],
+    "github.copilot.chat.codeGeneration.instructions": [
+        {"file": "docs/TECH_RULES.md"},
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic"
+ 
+}

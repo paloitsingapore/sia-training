@@ -10,6 +10,18 @@
 - Use single quotes for strings
 - Add trailing commas in objects and arrays
 - Semicolons required
+- Do not specify explicit return types for React components (let TypeScript infer them)
+```typescript
+// Good
+export const Component = ({ prop }: Props) => {
+  return <div>{prop}</div>;
+};
+
+// Bad
+export const Component = ({ prop }: Props): JSX.Element => {
+  return <div>{prop}</div>;
+};
+```
 
 ### Naming Conventions
 
@@ -80,14 +92,18 @@ src/
 - Use composition over inheritance
 - Extract reusable logic into custom hooks
 - Implement error boundaries where necessary
-- Use CSS Modules or Tailwind for styling
+- Use Tailwind CSS exclusively for styling
+  - No CSS Modules
+  - No styled-components
+  - No inline styles
+  - Maintain consistent spacing using Tailwind spacing scale
+  - Use Tailwind color palette for consistency
+  - Extract common class combinations into @apply directives when needed
 
 ## Component Structure
 
 ```typescript
 // Standard Component Structure
-import styles from './Component.module.css';
-
 interface ComponentProps {
   // Props interface
 }
@@ -98,9 +114,10 @@ export const Component = ({ prop1, prop2 }: ComponentProps) => {
   // Derived state
   // Event handlers
   
-  // JSX
   return (
-    // Component JSX
+    <div className="flex items-center">
+      {/* Use Tailwind classes for styling */}
+    </div>
   );
 };
 ```

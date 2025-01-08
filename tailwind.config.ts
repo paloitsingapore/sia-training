@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        header: {
+          bg: '#333333',
+        },
+        content: {
+          bg: '#000000',
+        },
       },
     },
   },
