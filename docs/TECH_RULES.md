@@ -86,14 +86,13 @@ src/
 
 ```typescript
 // Standard Component Structure
-import { FC } from 'react';
 import styles from './Component.module.css';
 
 interface ComponentProps {
   // Props interface
 }
 
-export const Component: FC<ComponentProps> = ({ prop1, prop2 }) => {
+export const Component = ({ prop1, prop2 }: ComponentProps) => {
   // Hooks at the top
   // Local state
   // Derived state

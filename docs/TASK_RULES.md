@@ -3,6 +3,7 @@
 ## Guidelines for Task Creation
 - Create tasks as one-line descriptions (task titles)
 - Break down complex tasks into subtasks using numeric hierarchy (e.g., 2.1, 2.2, 2.3)
+- Maximum task depth is two levels (e.g., 1.1, 1.2, but not 1.1.1)
 - Tasks must be in logical implementation order
 - Keep tasks and subtasks small and manageable
 - Maximum one task in progress at a time
@@ -55,3 +56,13 @@
 - Do not proceed with any changes until questions are answered
 - Strictly implement only what is specified in the task - no additional features or modifications outside the task scope
 - Any changes beyond task scope must be logged as new tasks for future implementation
+
+## Example Task Structure
+⬜ 1. Implement user authentication system
+   ✅ 1.1. Design database schema for users
+   🟨 1.2. Implement user registration endpoint with validation and hashing
+   ⬜ 1.3. Implement email verification service
+   ⬜ 1.4. Implement user login endpoint with JWT
+   ⬜ 1.5. Add refresh token mechanism
+
+Note: This example demonstrates proper task hierarchy with two-level depth, status tracking, and breakdown of a complex feature into manageable subtasks.
